@@ -1,0 +1,16 @@
+YOLO v1 
+
+입력 크기: 448 x 448
+그리드: S=7
+박스 개수: B=2
+클래스: C=20 (VOC)
+출력 텐서: [S, S, (B*5 + C) = [7, 7, 30]]
+    각 박스: (x, y, confidence)
+    (x, y)는 셀 좌표계에서 셀 내부 상대값, w, h는 이미지 상대값의 제곱근을 예측
+    confidence = Pr(object) x IoU(pred, gt)
+로스(SSE)
+    좌표 항 가중치: λ_coord=5
+    객체 없음 항 가중치: λ_noobj=0.5
+    각 셀에서 책임 박스(gt와 IoU 최대인 박스) 1개만 좌표/존재성 갱신
+백본: Conv x 24 + FC x 2, LeakyReLU(0.1), 마지막 FC = 4096 + Dropout(0.5)
+NMS로 최종 박스 선택
