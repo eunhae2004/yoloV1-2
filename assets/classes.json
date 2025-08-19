@@ -1,0 +1,305 @@
+{
+  "mode": "combo",
+  "classes": [
+    {
+      "class_id": 0,
+      "label_key": "type=t-shirts|color=mixed",
+      "type": "t-shirts",
+      "color": "mixed"
+    },
+    {
+      "class_id": 1,
+      "label_key": "type=t-shirts|color=black",
+      "type": "t-shirts",
+      "color": "black"
+    },
+    {
+      "class_id": 2,
+      "label_key": "type=t-shirts|color=orange",
+      "type": "t-shirts",
+      "color": "orange"
+    },
+    {
+      "class_id": 3,
+      "label_key": "type=outer|color=black",
+      "type": "outer",
+      "color": "black"
+    },
+    {
+      "class_id": 4,
+      "label_key": "type=dress|color=white",
+      "type": "dress",
+      "color": "white"
+    },
+    {
+      "class_id": 5,
+      "label_key": "type=dress|color=mixed",
+      "type": "dress",
+      "color": "mixed"
+    },
+    {
+      "class_id": 6,
+      "label_key": "type=others|color=black",
+      "type": "others",
+      "color": "black"
+    },
+    {
+      "class_id": 7,
+      "label_key": "type=others|color=mixed",
+      "type": "others",
+      "color": "mixed"
+    },
+    {
+      "class_id": 8,
+      "label_key": "type=bottom|color=mixed",
+      "type": "bottom",
+      "color": "mixed"
+    },
+    {
+      "class_id": 9,
+      "label_key": "type=bottom|color=black",
+      "type": "bottom",
+      "color": "black"
+    },
+    {
+      "class_id": 10,
+      "label_key": "type=dress|color=yellow",
+      "type": "dress",
+      "color": "yellow"
+    },
+    {
+      "class_id": 11,
+      "label_key": "type=dress|color=black",
+      "type": "dress",
+      "color": "black"
+    },
+    {
+      "class_id": 12,
+      "label_key": "type=t-shirts|color=white",
+      "type": "t-shirts",
+      "color": "white"
+    },
+    {
+      "class_id": 13,
+      "label_key": "type=t-shirts|color=red",
+      "type": "t-shirts",
+      "color": "red"
+    },
+    {
+      "class_id": 14,
+      "label_key": "type=bottom|color=yellow",
+      "type": "bottom",
+      "color": "yellow"
+    },
+    {
+      "class_id": 15,
+      "label_key": "type=others|color=white",
+      "type": "others",
+      "color": "white"
+    },
+    {
+      "class_id": 16,
+      "label_key": "type=bottom|color=white",
+      "type": "bottom",
+      "color": "white"
+    },
+    {
+      "class_id": 17,
+      "label_key": "type=bottom|color=orange",
+      "type": "bottom",
+      "color": "orange"
+    },
+    {
+      "class_id": 18,
+      "label_key": "type=dress|color=purple",
+      "type": "dress",
+      "color": "purple"
+    },
+    {
+      "class_id": 19,
+      "label_key": "type=outer|color=white",
+      "type": "outer",
+      "color": "white"
+    },
+    {
+      "class_id": 20,
+      "label_key": "type=outer|color=red",
+      "type": "outer",
+      "color": "red"
+    },
+    {
+      "class_id": 21,
+      "label_key": "type=outer|color=mixed",
+      "type": "outer",
+      "color": "mixed"
+    },
+    {
+      "class_id": 22,
+      "label_key": "type=dress|color=red",
+      "type": "dress",
+      "color": "red"
+    },
+    {
+      "class_id": 23,
+      "label_key": "type=others|color=blue",
+      "type": "others",
+      "color": "blue"
+    },
+    {
+      "class_id": 24,
+      "label_key": "type=dress|color=beige",
+      "type": "dress",
+      "color": "beige"
+    },
+    {
+      "class_id": 25,
+      "label_key": "type=t-shirts|color=yellow",
+      "type": "t-shirts",
+      "color": "yellow"
+    },
+    {
+      "class_id": 26,
+      "label_key": "type=outer|color=yelllow",
+      "type": "outer",
+      "color": "yelllow"
+    },
+    {
+      "class_id": 27,
+      "label_key": "type=bottom|color=brown",
+      "type": "bottom",
+      "color": "brown"
+    },
+    {
+      "class_id": 28,
+      "label_key": "type=dress|color=blue",
+      "type": "dress",
+      "color": "blue"
+    },
+    {
+      "class_id": 29,
+      "label_key": "type=t-shirts|color=blue",
+      "type": "t-shirts",
+      "color": "blue"
+    },
+    {
+      "class_id": 30,
+      "label_key": "type=bottom|color=blue",
+      "type": "bottom",
+      "color": "blue"
+    },
+    {
+      "class_id": 31,
+      "label_key": "type=dress|color=brown",
+      "type": "dress",
+      "color": "brown"
+    },
+    {
+      "class_id": 32,
+      "label_key": "type=t-shirts|color=green",
+      "type": "t-shirts",
+      "color": "green"
+    },
+    {
+      "class_id": 33,
+      "label_key": "type=t-shirts|color=brown",
+      "type": "t-shirts",
+      "color": "brown"
+    },
+    {
+      "class_id": 34,
+      "label_key": "type=outer|color=orange",
+      "type": "outer",
+      "color": "orange"
+    },
+    {
+      "class_id": 35,
+      "label_key": "type=bottom|color=red",
+      "type": "bottom",
+      "color": "red"
+    },
+    {
+      "class_id": 36,
+      "label_key": "type=bottom|color=green",
+      "type": "bottom",
+      "color": "green"
+    },
+    {
+      "class_id": 37,
+      "label_key": "type=outer|color=green",
+      "type": "outer",
+      "color": "green"
+    },
+    {
+      "class_id": 38,
+      "label_key": "type=jumpsuite|color=white",
+      "type": "jumpsuite",
+      "color": "white"
+    },
+    {
+      "class_id": 39,
+      "label_key": "type=bottom|color=beige",
+      "type": "bottom",
+      "color": "beige"
+    },
+    {
+      "class_id": 40,
+      "label_key": "type=outer|color=brown",
+      "type": "outer",
+      "color": "brown"
+    },
+    {
+      "class_id": 41,
+      "label_key": "type=jumpsuite|color=mixed",
+      "type": "jumpsuite",
+      "color": "mixed"
+    },
+    {
+      "class_id": 42,
+      "label_key": "type=others|color=red",
+      "type": "others",
+      "color": "red"
+    },
+    {
+      "class_id": 43,
+      "label_key": "type=jumpsuite|color=black",
+      "type": "jumpsuite",
+      "color": "black"
+    },
+    {
+      "class_id": 44,
+      "label_key": "type=outer|color=beige",
+      "type": "outer",
+      "color": "beige"
+    },
+    {
+      "class_id": 45,
+      "label_key": "type=others|color=brown",
+      "type": "others",
+      "color": "brown"
+    },
+    {
+      "class_id": 46,
+      "label_key": "type=dress|color=orange",
+      "type": "dress",
+      "color": "orange"
+    },
+    {
+      "class_id": 47,
+      "label_key": "type=others|color=beige",
+      "type": "others",
+      "color": "beige"
+    },
+    {
+      "class_id": 48,
+      "label_key": "type=outer|color=blue",
+      "type": "outer",
+      "color": "blue"
+    },
+    {
+      "class_id": 49,
+      "label_key": "type=others|color=yellow",
+      "type": "others",
+      "color": "yellow"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# type → category 매핑
+type_to_category:
+# top
+t-shirts: top
+shirt: top
+hoodie: top
+jacket: top
+coat: top
+sweater: top
+blouse: top
+cardigan: top
+
+# bottom
+pants: bottom
+jeans: bottom
+skirt: bottom
+shorts: bottom
+leggings: bottom

@@ -1,0 +1,40 @@
+## ⚙️ configs/det.yaml
+```yaml
+# YOLO v1 공통 설정
+project_root: "C:/YoloV1"
+
+
+# 데이터 경로
+images_root: "C:/YoloV1/labels/images" # 필요 시 사용자 환경에 맞게 수정
+labels_root: "C:/YoloV1/labels" # YOLO v1 txt들이 있는 루트
+classes_json_path: "C:/YoloV1/labels/classes.json" # 실제 데이터셋의 메타 경로
+
+
+# 모델/학습 하이퍼파라미터
+img_size: 448
+S: 7
+B: 2
+C: auto # 'auto'면 classes.json을 읽어 클래스 수를 자동 설정
+epochs: 100
+batch_size: 16
+lr: 0.001
+weight_decay: 0.0005
+num_workers: 4
+seed: 2025
+
+
+# 추론/후처리
+conf_thres: 0.25
+nms_iou: 0.45
+
+
+# 기타
+device: auto # 'auto' or 'cpu' or 'cuda:0'
+save_dir: "runs/det"
+log_dir: "runs/logs"
+
+
+# 데이터 증강
+augment:
+hflip: true
+color_jitter: true
